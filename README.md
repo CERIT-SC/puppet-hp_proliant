@@ -3,10 +3,6 @@
 This module setups package repository for HP ProLiant Support Pack.
 It can be also used to install and configure basic tools.
 
-### Overview
-
-...
-
 ### Requirements
 
 Module has been tested on:
