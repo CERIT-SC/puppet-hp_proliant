@@ -1,6 +1,6 @@
 class { 'hp_proliant':
 	force			=> true,
-	hasstatus		=> true,
+	hasstatus		=> false,
 	repo			=> true,
 	use_acucli		=> true,
 	use_oncfg		=> true,
