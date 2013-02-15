@@ -16,8 +16,6 @@ cc=us&prodTypeId=15351&prodSeriesId=1121516&prodNameId=3288134&taskId=135")
         fail('lsbdistcodename fact not available')
       }
 
-      require apt
-
       apt::source { 'hp_proliant':
         location => $site_url,
         release  => "${::lsbdistcodename}/current",
