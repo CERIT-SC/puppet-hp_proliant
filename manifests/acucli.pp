@@ -1,6 +1,5 @@
 class hp_proliant::acucli {
-	package {
-		'hpacucli':
-			ensure	=> present,
-	}
+  package { 'hpacucli':
+    ensure  => present,
+  }
 }

@@ -1,7 +1,6 @@
 class hp_proliant::oncfg {
-	package {
-		'hponcfg':
-			ensure	=> present,
-			require	=> Class['hp_proliant::health'],
-	}
+  package { 'hponcfg':
+    ensure  => present,
+    require => Class['hp_proliant::health'],
+  }
 }
