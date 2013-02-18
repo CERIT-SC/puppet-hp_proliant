@@ -25,7 +25,8 @@ cc=us&prodTypeId=15351&prodSeriesId=1121516&prodNameId=3288134&taskId=135")
     }
 
     fedora,redhat,centos: {
-      yumrepo { 'hp':
+      yumrepo { 'hp_proliant':
+        name     => 'HP Software Delivery Repository for ProLiantSupportPack',
         baseurl  => "${site_url}/${::operatingsystem}/\$releasever/packages/\$basearch/",
         gpgkey   => "${site_url}/GPG-KEY-ProLiantSupportPack",
         gpgcheck => 1,
